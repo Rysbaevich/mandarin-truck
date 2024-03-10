@@ -1,0 +1,51 @@
+name: mandarin_client
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  dio: ^5.4.0
+  permission_handler: ^11.0.1
+  flutter_barcode_scanner: ^2.0.0
+  flutter_easyloading: ^3.0.5
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/.
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+
+# flutter_native_splash settings
+flutter_native_splash:
+  image: assets/logo.jpg
+  color: "#ffffff"
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/logo.jpg"
